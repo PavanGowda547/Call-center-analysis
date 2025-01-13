@@ -43,7 +43,7 @@ An interactive Power BI dashboard visualizes:
 - **Satisfaction Metrics**: CSAT distribution and key areas of improvement.
 - **Topic Analysis**: Most frequent topics and their resolution performance.
 
-![Call Center Dashboard Screenshot](./screenshot.png)  <!-- Replace this with your actual screenshot path -->
+![Call Center Dashboard Screenshot](.images/screenshot.png)  <!-- Replace this with your actual screenshot path -->
 
 ## Insights from the Dashboard
 
