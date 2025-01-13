@@ -138,5 +138,3 @@ An interactive Power BI dashboard visualizes:
 
 This Call Center Dashboard project empowers businesses with data-driven insights to optimize call center operations and enhance customer satisfaction. By visualizing key metrics and identifying areas for improvement, the dashboard supports effective decision-making and improved customer experiences.
 ```
-
-Make sure to replace `./screenshot.png` with the correct file path or URL where your screenshot is stored. If the image is located in a different folder, adjust the path accordingly (e.g., `./images/screenshot.png`).
