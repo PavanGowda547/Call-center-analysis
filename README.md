@@ -4,6 +4,7 @@
 
 The **Call Center Dashboard** project focuses on analyzing call center performance using Power BI to provide insights into key metrics such as call volume, resolution rates, satisfaction scores, and agent performance. This dashboard helps businesses optimize operations, improve customer satisfaction, and ensure efficient call center management. The dataset includes call records, agent details, and customer feedback, offering a comprehensive view of call center activities.
 
+
 ## Dataset Overview
 
 The dataset contains the following columns:
@@ -18,6 +19,8 @@ The dataset contains the following columns:
 - **Speed of Answer in Seconds**: The time taken to answer the call, measured in seconds.
 - **AvgTalkDuration**: Average duration of the call.
 - **Satisfaction Rating**: Customer satisfaction rating after the call.
+
+
 
 ## Project Goals
 
@@ -43,7 +46,11 @@ An interactive Power BI dashboard visualizes:
 - **Satisfaction Metrics**: CSAT distribution and key areas of improvement.
 - **Topic Analysis**: Most frequent topics and their resolution performance.
 
+
+
 ![Screenshot 2025-01-13 162602](https://github.com/user-attachments/assets/e15d2f00-f345-4116-9e73-8408a8eebc22)
+
+
 
 
 ## Insights from the Dashboard
@@ -103,6 +110,8 @@ An interactive Power BI dashboard visualizes:
 - **Topic-Specific Resolution Rate**: The resolution rate for each topic category.
   - **Example**: Streaming (73.29%), Technical Support (72.23%), Payment Related (72.39%), Admin Support (74.08%), Contract Related (72.64%).
 
+
+
 ## Recommendations
 
 ### 1. Operational Improvements
@@ -135,7 +144,7 @@ An interactive Power BI dashboard visualizes:
 - Monitor first call resolution rates to enhance operational efficiency.
 - Track call hold times and their impact on satisfaction ratings.
 
+
 ## Conclusion
 
 This Call Center Dashboard project empowers businesses with data-driven insights to optimize call center operations and enhance customer satisfaction. By visualizing key metrics and identifying areas for improvement, the dashboard supports effective decision-making and improved customer experiences.
-```
