@@ -53,62 +53,10 @@ An interactive Power BI dashboard visualizes:
 
 
 
-## Insights from the Dashboard
+# Call Center Performance Analysis
 
-### 1. Volume Metrics
-- **Total Calls**: The total number of calls recorded in the dataset.
-  - **Value**: 5000 calls.
-- **Answered Calls**: The total number of calls answered.
-  - **Value**: 4054 calls.
-- **Unanswered Calls**: The total number of calls not answered.
-  - **Formula**: Total Calls – Answered Calls.
-  - **Value**: 946 calls.
-- **Resolved Calls**: The total number of calls resolved successfully.
-  - **Value**: 72.3%.
+In analyzing the performance of the call center, I gained valuable insights into both our operational strengths and areas that may require attention. A total of 5000 calls were handled, with 4054 answered, resulting in a resolution rate of 72.3%. The **Average Speed of Answer (ASA)** was recorded at 54.47 seconds, and the **Average Talk Time** was 13 minutes and 17 seconds, with call durations ranging from 9 to 18 minutes. The **Answer Rate** reached 81%, while the **Resolution Rate** stood at 72.9%. However, 10% of calls were escalated, and 19% were abandoned, indicating areas for potential improvement. Both **Customer Satisfaction (CSAT)** and **Agent Satisfaction (ESAT)** scores averaged 3.4/5, providing a useful baseline for future enhancements. On average, each agent managed 625 calls. The most common call topics were streaming issues, technical support, and payment inquiries, with resolution rates between 73.29% and 74.08%. For a comprehensive explanation and detailed breakdown of these metrics, please refer to the **report**.
 
-### 2. Time Metrics
-- **Average Speed of Answer (ASA)**: The average time (in seconds) it takes agents to answer calls.
-  - **Formula**: Total Time to Answer / Number of Answered Calls.
-  - **Value**: 54.47 seconds.
-- **Average Talk Time**: The average duration of calls (in seconds or minutes).
-  - **Formula**: Total Talk Time / Number of Answered Calls.
-  - **Value**: 13:17 minutes.
-- **Longest Talk Time**: The longest single call duration in the dataset.
-  - **Value**: 18 minutes.
-- **Shortest Talk Time**: The shortest single call duration in the dataset.
-  - **Value**: 9 minutes.
-
-### 3. Performance Metrics
-- **Answer Rate**: The percentage of calls answered by agents.
-  - **Formula**: (Answered Calls / Total Calls) × 100.
-  - **Value**: 81%.
-- **Resolution Rate**: The percentage of answered calls that are resolved.
-  - **Formula**: (Resolved Calls / Answered Calls) × 100.
-  - **Value**: 72.9%.
-- **Escalation Rate**: The percentage of calls escalated to higher-level support or managers.
-  - **Formula**: (Escalated Calls / Total Calls) × 100.
-  - **Example**: 10%.
-- **Abandonment Rate**: The percentage of calls abandoned by customers.
-  - **Formula**: (Abandoned Calls / Total Calls) × 100.
-  - **Value**: 19%.
-
-### 4. Satisfaction Metrics
-- **Average Satisfaction Score (CSAT)**: The average customer satisfaction score (e.g., on a scale of 1-5 or 1-10).
-  - **Formula**: Total Satisfaction Scores / Number of Ratings.
-  - **Value**: 3.4/5.
-
-### 5. Agent-Specific Metrics
-- **Calls Per Agent**: The average number of calls handled per agent.
-  - **Formula**: Total Calls / Number of Agents.
-  - **Value**: 625 calls per agent.
-- **Agent Satisfaction (ESAT)**: Average satisfaction score from agent feedback or surveys.
-  - **Value**: 3.4.
-
-### 6. Topic-Based Metrics
-- **Top Call Topics**: The most common topics for calls, ranked by frequency.
-  - **Example**: Streaming (1022 calls, 20%), Technical Support (1019 calls, 20%), Payment Related (1007 calls, 20%), Admin Support (976 calls, 20.32%), Contract Related (976 calls, 19.92%).
-- **Topic-Specific Resolution Rate**: The resolution rate for each topic category.
-  - **Example**: Streaming (73.29%), Technical Support (72.23%), Payment Related (72.39%), Admin Support (74.08%), Contract Related (72.64%).
 
 
 
