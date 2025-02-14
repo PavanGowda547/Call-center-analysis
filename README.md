@@ -147,7 +147,7 @@ By **visualizing key metrics** and identifying areas for improvement, the dashbo
 For any queries or collaborations, feel free to reach out:
 
 📧 Email: pavangowdanyr63@gmail.com 
-📌 LinkedIn: [Your Profile]([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/pavan-gowda-r-b6b297260/))  
-🚀 GitHub: [Your GitHub](https://github.com/PavanGowda547)  
+📌 LinkedIn: Pavan Gowda R([(https://www.linkedin.com/in/pavan-gowda-r-b6b297260/)])  
+🚀 GitHub: PavanGowda547([https://github.com/PavanGowda547])  
 
 ---
