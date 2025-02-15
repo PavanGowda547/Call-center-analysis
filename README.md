@@ -1,17 +1,13 @@
 # 📞 Call Center Dashboard Using Power BI
 
-![Call Center Dashboard](https://github.com/user-attachments/assets/e15d2f00-f345-4116-9e73-8408a8eebc22)
-
 ## 📌 Overview
+The Call Center Dashboard project focuses on analyzing call center performance using Power BI to provide insights into key metrics such as call volume, resolution rates, satisfaction scores, and agent performance.
 
-The **Call Center Dashboard** project focuses on analyzing call center performance using **Power BI** to provide insights into key metrics such as **call volume, resolution rates, satisfaction scores, and agent performance**. 
-
-This dashboard helps businesses optimize operations, improve customer satisfaction, and ensure efficient call center management. The dataset includes **call records, agent details, and customer feedback**, offering a **comprehensive** view of call center activities.
+This dashboard helps businesses optimize operations, improve customer satisfaction, and ensure efficient call center management. The dataset includes call records, agent details, and customer feedback, offering a comprehensive view of call center activities.
 
 ---
 
 ## 📊 Dataset Overview
-
 The dataset contains the following columns:
 
 - **Call Id**: Unique identifier for each call.
@@ -28,30 +24,30 @@ The dataset contains the following columns:
 ---
 
 ## 🎯 Project Goals
-
-The primary goal of this project is to provide **actionable insights** into **call center performance**, improve **operational efficiency**, and enhance **customer satisfaction** by leveraging **Power BI visualizations**.
+The primary goal of this project is to provide actionable insights into call center performance, improve operational efficiency, and enhance customer satisfaction by leveraging Power BI visualizations.
 
 ---
 
 ## 🔎 Analysis Steps
 
-### 🛠 1. Data Cleaning
-- Handle **missing or inconsistent values**.
-- Convert **time-related columns** into proper date-time formats.
-- Ensure all **categorical values** (e.g., "Topic") are properly encoded.
+### 🛠 1. Data Cleaning (Python, SQL, Excel)
+- **Python**: Used for handling missing or inconsistent values, formatting date-time columns, and encoding categorical values.
+- **SQL**: Helps in data extraction, transformation, and normalization to ensure consistency before loading into Power BI.
+- **Excel**: Used for quick data validation, manual adjustments, and preliminary cleaning before automation.
 
-### 📈 2. Exploratory Data Analysis (EDA)
-- **Analyze call volume trends** over time.
-- Identify **resolution and abandonment rates**.
-- Assess **agent-specific performance and satisfaction metrics**.
+### 📈 2. Exploratory Data Analysis (EDA) (Python, SQL, Excel)
+- **Python**: Utilized for generating descriptive statistics, visualizing trends, and detecting anomalies in call data.
+- **SQL**: Used to aggregate and filter data for deeper insights into agent performance and customer satisfaction trends.
+- **Excel**: Employed for pivot table analysis, basic trend spotting, and quick comparisons of call metrics.
 
 ### 📊 3. Dashboard Creation in Power BI
-The **interactive Power BI dashboard** visualizes:
-- 📞 **Call Metrics**: Total calls, answered/unanswered breakdowns, and trends.
-- ⏳ **Time Metrics**: Average speed of answer, talk durations, and busiest call times.
-- 🎯 **Performance Metrics**: Answer rate, resolution rate, escalation rate, and agent rankings.
-- ⭐ **Satisfaction Metrics**: CSAT distribution and key areas of improvement.
-- 📌 **Topic Analysis**: Most frequent topics and their resolution performance.
+The interactive Power BI dashboard visualizes:
+
+- **📞 Call Metrics**: Total calls, answered/unanswered breakdowns, and trends.
+- **⏳ Time Metrics**: Average speed of answer, talk durations, and busiest call times.
+- **🎯 Performance Metrics**: Answer rate, resolution rate, escalation rate, and agent rankings.
+- **⭐ Satisfaction Metrics**: CSAT distribution and key areas of improvement.
+- **📌 Topic Analysis**: Most frequent topics and their resolution performance.
 
 ---
 
@@ -84,28 +80,31 @@ The **interactive Power BI dashboard** visualizes:
 ---
 
 ## 📊 Call Center Performance Analysis
+The Call Center Performance Analysis revealed both operational strengths and areas for improvement. Out of a total of 5000 calls, 4054 were answered, achieving an answer rate of **81%**. The resolution rate stood at **72.3%**, indicating that most customer issues were resolved on the first call. 
 
-The **Call Center Performance Analysis** revealed both operational strengths and areas for improvement. Out of a total of **5000 calls**, **4054 were answered**, achieving an **answer rate of 81%**. The **resolution rate stood at 72.3%**, indicating that most customer issues were resolved on the first call. The **average speed of answer (ASA)** was **54.47 seconds**, and the **average talk time** was **13 minutes and 17 seconds**, with call durations ranging between **9 to 18 minutes**. However, **19% of calls were abandoned**, and **10% were escalated**, highlighting the need for further improvements in response time and issue resolution. **Customer Satisfaction (CSAT) and Employee Satisfaction (ESAT) scores averaged 3.4 out of 5**, suggesting room for enhancing service quality. On average, each agent handled **625 calls**, with the most common topics being **streaming issues, technical support, and payment inquiries**, which had a **resolution rate between 73.29% and 74.08%**. 
+The **average speed of answer (ASA)** was **54.47 seconds**, and the **average talk time** was **13 minutes and 17 seconds**, with call durations ranging between **9 to 18 minutes**. However, **19% of calls were abandoned**, and **10% were escalated**, highlighting the need for further improvements in response time and issue resolution. 
+
+Customer Satisfaction (CSAT) and Employee Satisfaction (ESAT) scores averaged **3.4 out of 5**, suggesting room for enhancing service quality. On average, each agent handled **625 calls**, with the most common topics being **streaming issues, technical support, and payment inquiries**, which had a resolution rate between **73.29% and 74.08%**.
 
 ---
 
 ## 🚀 Recommendations
 
 ### 🔹 1. Operational Improvements
-- Adjust staffing **during peak hours** to reduce unanswered calls.
-- **Reduce speed of answer** by streamlining call routing.
+- Adjust staffing during peak hours to reduce unanswered calls.
+- Reduce speed of answer by streamlining call routing.
 
 ### 🔹 2. Agent Training
-- Provide additional training for **agents with lower resolution rates**.
-- Share **best practices** from top-performing agents.
+- Provide additional training for agents with lower resolution rates.
+- Share best practices from top-performing agents.
 
 ### 🔹 3. Customer Engagement
-- Follow up with **customers who give low satisfaction ratings**.
-- Implement **feedback loops** to address recurring issues.
+- Follow up with customers who give low satisfaction ratings.
+- Implement feedback loops to address recurring issues.
 
 ### 🔹 4. Topic-Specific Strategies
-- Develop **FAQs and self-help guides** for common call topics.
-- Improve **resources** for agents handling complex topics.
+- Develop FAQs and self-help guides for common call topics.
+- Improve resources for agents handling complex topics.
 
 ---
 
@@ -116,40 +115,34 @@ The **Call Center Performance Analysis** revealed both operational strengths and
 - **Customer Segmentation**: Categorize customers based on satisfaction levels and call behavior.
 
 ### 💬 Sentiment Analysis
-- Analyze **customer feedback** for dissatisfaction patterns.
-- Incorporate **sentiment scores** into the dashboard.
+- Analyze customer feedback for dissatisfaction patterns.
+- Incorporate sentiment scores into the dashboard.
 
 ### 📌 Additional Metrics
-- Monitor **First Call Resolution (FCR)** for operational efficiency.
-- Track **call hold times** and their impact on satisfaction ratings.
+- Monitor First Call Resolution (FCR) for operational efficiency.
+- Track call hold times and their impact on satisfaction ratings.
 
 ---
 
 ## 📌 Conclusion
+This Call Center Dashboard empowers businesses with data-driven insights to optimize call center operations and enhance customer satisfaction.
 
-This **Call Center Dashboard** empowers businesses with **data-driven insights** to optimize **call center operations** and enhance **customer satisfaction**. 
-
-By **visualizing key metrics** and identifying areas for improvement, the dashboard supports **effective decision-making** and improved **customer experiences**.
+By visualizing key metrics and identifying areas for improvement, the dashboard supports effective decision-making and improved customer experiences.
 
 ---
 
 ## 🛠 Technologies Used
 - **Power BI** (Visualization)
-- **Python** (Data Preprocessing)
+- **Python** (Data Preprocessing, EDA, Data Cleaning)
 - **Pandas** (Data Analysis)
-- **SQL** (Data Storage)
-- **Excel** (Data Management)
+- **SQL** (Data Storage, Querying, Aggregation)
+- **Excel** (Data Management, Manual Adjustments)
 
 ---
 
 ## 📩 Contact
-
 For any queries or collaborations, feel free to reach out:
 
-📧 Email: (pavangowdanyr63@gmail.com)
-
-📌 LinkedIn: [Pavan Gowda R](https://www.linkedin.com/in/pavan-gowda-r-b6b297260/)
-
-🚀 GitHub: [PavanGowda547](https://github.com/PavanGowda547)
-
----
+📧 **Email**: pavangowdanyr63@gmail.com  
+📌 **LinkedIn**: [Pavan Gowda R](https://www.linkedin.com/in/pavangowdar)  
+🚀 **GitHub**: [PavanGowda547](https://github.com/PavanGowda547)
