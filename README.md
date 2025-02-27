@@ -1,9 +1,10 @@
 # 📞 Call Center Dataset Analysis
 ![Image](https://github.com/user-attachments/assets/d731407c-03ee-42da-94b0-46e6130abe53)
 ## 📌 Overview
-The Call Center Dashboard project focuses on analyzing call center performance using Power BI to provide insights into key metrics such as call volume, resolution rates, satisfaction scores, and agent performance.
 
-This dashboard helps businesses optimize operations, improve customer satisfaction, and ensure efficient call center management. The dataset includes call records, agent details, and customer feedback, offering a comprehensive view of call center activities.
+The Call Center Analysis project focuses on evaluating call center performance using data-driven insights. It examines key metrics such as call volume, resolution rates, satisfaction scores, and agent efficiency to identify trends, strengths, and areas for improvement. By analyzing call records, agent details, and customer feedback, this project helps businesses optimize operations, enhance customer satisfaction, and ensure efficient call center management.
+
+Let me know if you need any more refinements! 🚀
 
 ---
 
