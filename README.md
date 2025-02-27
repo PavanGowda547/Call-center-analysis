@@ -1,4 +1,4 @@
-# 📞 Call Center Dashboard Using Power BI
+# 📞 Call Center Dataset Analysis
 ![Image](https://github.com/user-attachments/assets/d731407c-03ee-42da-94b0-46e6130abe53)
 ## 📌 Overview
 The Call Center Dashboard project focuses on analyzing call center performance using Power BI to provide insights into key metrics such as call volume, resolution rates, satisfaction scores, and agent performance.
